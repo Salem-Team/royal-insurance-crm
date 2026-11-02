@@ -253,6 +253,25 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section id="terms" className="space-y-5 px-4 py-10 sm:px-8">
+          <Reveal>
+            <h2 className="font-display text-2xl font-extrabold text-navy-deep">{t("termsTitle")}</h2>
+          </Reveal>
+
+          <Reveal>
+            <div className="surface rounded-2xl p-5">
+              <ol className="grid list-decimal gap-3 ps-5 text-sm leading-7 text-mute sm:grid-cols-2">
+                <li>{t("term1")}</li>
+                <li>{t("term2")}</li>
+                <li>{t("term3")}</li>
+                <li>{t("term4")}</li>
+                <li>{t("term5")}</li>
+                <li>{t("term6")}</li>
+              </ol>
+            </div>
+          </Reveal>
+        </section>
+
         <section className="px-4 pb-10 sm:px-8">
           <Reveal>
             <div className="navy-grad rounded-2xl p-6 text-white sm:p-7">

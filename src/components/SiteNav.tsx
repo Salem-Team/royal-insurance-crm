@@ -15,6 +15,7 @@ export function SiteNav() {
     { href: "#scope", label: t("navScope") },
     { href: "#price", label: t("navPrice") },
     { href: "#benefits", label: t("navBenefits") },
+    { href: "#terms", label: t("navTerms") },
   ];
 
   useEffect(() => {
